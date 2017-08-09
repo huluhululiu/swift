@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C90787F1F038F350059B08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90787E1F038F350059B08D /* AppDelegate.swift */; };
+		9C9078811F038F350059B08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9078801F038F350059B08D /* ViewController.swift */; };
+		9C9078841F038F350059B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078821F038F350059B08D /* Main.storyboard */; };
+		9C9078861F038F350059B08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078851F038F350059B08D /* Assets.xcassets */; };
+		9C9078891F038F350059B08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078871F038F350059B08D /* LaunchScreen.storyboard */; };
+		9C9078941F038F350059B08D /* lab2petTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9078931F038F350059B08D /* lab2petTests.swift */; };
+		9C90789F1F038F350059B08D /* lab2petUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90789E1F038F350059B08D /* lab2petUITests.swift */; };
+		9C9078AD1F03928C0059B08D /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9078AC1F03928C0059B08D /* DisplayView.swift */; };
+		9C9078AF1F0392CB0059B08D /* petspets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9078AE1F0392CB0059B08D /* petspets.swift */; };
+		9C9078B11F0393240059B08D /* bird@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078B01F0393240059B08D /* bird@3x.png */; };
+		9C9078B31F0393310059B08D /* bunny@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078B21F0393310059B08D /* bunny@3x.png */; };
+		9C9078B51F0393380059B08D /* cat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078B41F0393380059B08D /* cat@3x.png */; };
+		9C9078B71F0393410059B08D /* dog@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078B61F0393410059B08D /* dog@3x.png */; };
+		9C9078B91F0393490059B08D /* fish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9078B81F0393490059B08D /* fish@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C9078901F038F350059B08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9078731F038F350059B08D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C90787A1F038F350059B08D;
+			remoteInfo = lab2pet;
+		};
+		9C90789B1F038F350059B08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9078731F038F350059B08D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C90787A1F038F350059B08D;
+			remoteInfo = lab2pet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C90787B1F038F350059B08D /* lab2pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab2pet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C90787E1F038F350059B08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C9078801F038F350059B08D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C9078831F038F350059B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C9078851F038F350059B08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C9078881F038F350059B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C90788A1F038F350059B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C90788F1F038F350059B08D /* lab2petTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab2petTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9078931F038F350059B08D /* lab2petTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab2petTests.swift; sourceTree = "<group>"; };
+		9C9078951F038F350059B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C90789A1F038F350059B08D /* lab2petUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lab2petUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C90789E1F038F350059B08D /* lab2petUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab2petUITests.swift; sourceTree = "<group>"; };
+		9C9078A01F038F350059B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9078AC1F03928C0059B08D /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		9C9078AE1F0392CB0059B08D /* petspets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = petspets.swift; sourceTree = "<group>"; };
+		9C9078B01F0393240059B08D /* bird@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird@3x.png"; sourceTree = "<group>"; };
+		9C9078B21F0393310059B08D /* bunny@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bunny@3x.png"; sourceTree = "<group>"; };
+		9C9078B41F0393380059B08D /* cat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat@3x.png"; sourceTree = "<group>"; };
+		9C9078B61F0393410059B08D /* dog@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog@3x.png"; sourceTree = "<group>"; };
+		9C9078B81F0393490059B08D /* fish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fish@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9078781F038F350059B08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C90788C1F038F350059B08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9078971F038F350059B08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9078721F038F350059B08D = {
+			isa = PBXGroup;
+			children = (
+				9C90787D1F038F350059B08D /* lab2pet */,
+				9C9078921F038F350059B08D /* lab2petTests */,
+				9C90789D1F038F350059B08D /* lab2petUITests */,
+				9C90787C1F038F350059B08D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C90787C1F038F350059B08D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C90787B1F038F350059B08D /* lab2pet.app */,
+				9C90788F1F038F350059B08D /* lab2petTests.xctest */,
+				9C90789A1F038F350059B08D /* lab2petUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C90787D1F038F350059B08D /* lab2pet */ = {
+			isa = PBXGroup;
+			children = (
+				9C90787E1F038F350059B08D /* AppDelegate.swift */,
+				9C9078801F038F350059B08D /* ViewController.swift */,
+				9C9078821F038F350059B08D /* Main.storyboard */,
+				9C9078AC1F03928C0059B08D /* DisplayView.swift */,
+				9C9078851F038F350059B08D /* Assets.xcassets */,
+				9C9078871F038F350059B08D /* LaunchScreen.storyboard */,
+				9C90788A1F038F350059B08D /* Info.plist */,
+				9C9078AE1F0392CB0059B08D /* petspets.swift */,
+				9C9078B01F0393240059B08D /* bird@3x.png */,
+				9C9078B21F0393310059B08D /* bunny@3x.png */,
+				9C9078B41F0393380059B08D /* cat@3x.png */,
+				9C9078B61F0393410059B08D /* dog@3x.png */,
+				9C9078B81F0393490059B08D /* fish@3x.png */,
+			);
+			path = lab2pet;
+			sourceTree = "<group>";
+		};
+		9C9078921F038F350059B08D /* lab2petTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9078931F038F350059B08D /* lab2petTests.swift */,
+				9C9078951F038F350059B08D /* Info.plist */,
+			);
+			path = lab2petTests;
+			sourceTree = "<group>";
+		};
+		9C90789D1F038F350059B08D /* lab2petUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C90789E1F038F350059B08D /* lab2petUITests.swift */,
+				9C9078A01F038F350059B08D /* Info.plist */,
+			);
+			path = lab2petUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C90787A1F038F350059B08D /* lab2pet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9078A31F038F350059B08D /* Build configuration list for PBXNativeTarget "lab2pet" */;
+			buildPhases = (
+				9C9078771F038F350059B08D /* Sources */,
+				9C9078781F038F350059B08D /* Frameworks */,
+				9C9078791F038F350059B08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lab2pet;
+			productName = lab2pet;
+			productReference = 9C90787B1F038F350059B08D /* lab2pet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C90788E1F038F350059B08D /* lab2petTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9078A61F038F350059B08D /* Build configuration list for PBXNativeTarget "lab2petTests" */;
+			buildPhases = (
+				9C90788B1F038F350059B08D /* Sources */,
+				9C90788C1F038F350059B08D /* Frameworks */,
+				9C90788D1F038F350059B08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9078911F038F350059B08D /* PBXTargetDependency */,
+			);
+			name = lab2petTests;
+			productName = lab2petTests;
+			productReference = 9C90788F1F038F350059B08D /* lab2petTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C9078991F038F350059B08D /* lab2petUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9078A91F038F350059B08D /* Build configuration list for PBXNativeTarget "lab2petUITests" */;
+			buildPhases = (
+				9C9078961F038F350059B08D /* Sources */,
+				9C9078971F038F350059B08D /* Frameworks */,
+				9C9078981F038F350059B08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C90789C1F038F350059B08D /* PBXTargetDependency */,
+			);
+			name = lab2petUITests;
+			productName = lab2petUITests;
+			productReference = 9C90789A1F038F350059B08D /* lab2petUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9078731F038F350059B08D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jiangnan Liu";
+				TargetAttributes = {
+					9C90787A1F038F350059B08D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9C90788E1F038F350059B08D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C90787A1F038F350059B08D;
+					};
+					9C9078991F038F350059B08D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C90787A1F038F350059B08D;
+					};
+				};
+			};
+			buildConfigurationList = 9C9078761F038F350059B08D /* Build configuration list for PBXProject "lab2pet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9078721F038F350059B08D;
+			productRefGroup = 9C90787C1F038F350059B08D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C90787A1F038F350059B08D /* lab2pet */,
+				9C90788E1F038F350059B08D /* lab2petTests */,
+				9C9078991F038F350059B08D /* lab2petUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9078791F038F350059B08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9078891F038F350059B08D /* LaunchScreen.storyboard in Resources */,
+				9C9078B71F0393410059B08D /* dog@3x.png in Resources */,
+				9C9078861F038F350059B08D /* Assets.xcassets in Resources */,
+				9C9078B91F0393490059B08D /* fish@3x.png in Resources */,
+				9C9078B11F0393240059B08D /* bird@3x.png in Resources */,
+				9C9078841F038F350059B08D /* Main.storyboard in Resources */,
+				9C9078B51F0393380059B08D /* cat@3x.png in Resources */,
+				9C9078B31F0393310059B08D /* bunny@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C90788D1F038F350059B08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9078981F038F350059B08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9078771F038F350059B08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9078AD1F03928C0059B08D /* DisplayView.swift in Sources */,
+				9C9078AF1F0392CB0059B08D /* petspets.swift in Sources */,
+				9C9078811F038F350059B08D /* ViewController.swift in Sources */,
+				9C90787F1F038F350059B08D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C90788B1F038F350059B08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9078941F038F350059B08D /* lab2petTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9078961F038F350059B08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C90789F1F038F350059B08D /* lab2petUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C9078911F038F350059B08D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C90787A1F038F350059B08D /* lab2pet */;
+			targetProxy = 9C9078901F038F350059B08D /* PBXContainerItemProxy */;
+		};
+		9C90789C1F038F350059B08D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C90787A1F038F350059B08D /* lab2pet */;
+			targetProxy = 9C90789B1F038F350059B08D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C9078821F038F350059B08D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9078831F038F350059B08D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C9078871F038F350059B08D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9078881F038F350059B08D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9078A11F038F350059B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C9078A21F038F350059B08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C9078A41F038F350059B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lab2pet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.lab2pet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C9078A51F038F350059B08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = lab2pet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.lab2pet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C9078A71F038F350059B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lab2petTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.lab2petTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lab2pet.app/lab2pet";
+			};
+			name = Debug;
+		};
+		9C9078A81F038F350059B08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = lab2petTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.lab2petTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lab2pet.app/lab2pet";
+			};
+			name = Release;
+		};
+		9C9078AA1F038F350059B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = lab2petUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.lab2petUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = lab2pet;
+			};
+			name = Debug;
+		};
+		9C9078AB1F038F350059B08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = lab2petUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulu.lab2petUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = lab2pet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9078761F038F350059B08D /* Build configuration list for PBXProject "lab2pet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9078A11F038F350059B08D /* Debug */,
+				9C9078A21F038F350059B08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9078A31F038F350059B08D /* Build configuration list for PBXNativeTarget "lab2pet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9078A41F038F350059B08D /* Debug */,
+				9C9078A51F038F350059B08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C9078A61F038F350059B08D /* Build configuration list for PBXNativeTarget "lab2petTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9078A71F038F350059B08D /* Debug */,
+				9C9078A81F038F350059B08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C9078A91F038F350059B08D /* Build configuration list for PBXNativeTarget "lab2petUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9078AA1F038F350059B08D /* Debug */,
+				9C9078AB1F038F350059B08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9078731F038F350059B08D /* Project object */;
+}
